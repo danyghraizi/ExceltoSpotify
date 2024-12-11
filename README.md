@@ -1,7 +1,7 @@
 
 # SpotifyExcel
 
-This project allows you to create a Spotify playlist from an Excel sheet that contains song information (Title, Artist). The script searches for the tracks on Spotify and adds them to a newly created playlist.
+This project allows you to create a Spotify playlist from an Excel sheet that contains song information in 2 columns (Title, Artist). The script searches for the tracks on Spotify and adds them to a newly created playlist.
 
 ## Instructions to Use
 
