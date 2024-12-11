@@ -49,11 +49,12 @@ After successful authentication, a new Spotify playlist named **"My Piano Music 
 
 ### NOTE
 
-If you want to use the **Edge** browser for authentication instead of the default browser, uncomment the line of code that contains `"edge"`. This will switch the authentication process to use the Edge browser.
+If you want to use a different browser for authentication, you can modify the webbrowser.get() function in the script:
 
 ```python
-# Uncomment this line to use the Edge browser
-# os.environ["BROWSER"] = "edge"
+# Custom function to open URL with Edge
+auth_url = sp.auth_manager.get_authorize_url()
+webbrowser.get('edge').open(auth_url)  # Change 'edge' to your desired browser if needed
 ```
 
 ---
